@@ -15,7 +15,7 @@ const Footer = ({lang}) => {
     
 
   return (
-    <div className='relative z-50 flex flex-col gap-5 px-20 py-10 bg-black text-white text-base w-full'>
+    <div className='relative z-50 flex flex-col gap-5 px-5 py-5 sm:px-20 sm:py-10 bg-black text-white text-base w-full'>
         <h4 className='font-light text-sm sm:text-base w-[90%] text-center'>{lang==="en"?"Ready to watch? Enter your email to create or restart your membership." :"देखने के लिए तैयार हैं? अपनी मेंबरशिप बनाने या रीस्टार्ट करने के लिए अपना ईमेल एड्रेस डालें."}</h4>
 
           <div className='flex flex-col sm:flex-row w-full justify-center items-center gap-5 '>

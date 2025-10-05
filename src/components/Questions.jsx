@@ -72,7 +72,7 @@ const Questions = ({lang}) => {
   };
 
   return (
-    <div className="w-full text-white bg-black flex flex-col px-20 py-10 gap-5">
+    <div className="w-full text-white bg-black flex flex-col px-5 py-5 sm:px-20 sm:py-10 gap-5">
       <h1 className="text-sm sm:text-3xl font-bold mb-6">
       {lang === "en"?"Frequently Asked Questions":"अक्सर पूछे जाने वाले सवाल"}</h1>
 

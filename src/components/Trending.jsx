@@ -78,7 +78,7 @@ const trending = ({ lang }) => {
     <div className="relative h-full w-full bg-black">
       <div className="h-1 w-full bg-[#c81e4c]"></div>
       
-      <div className="flex flex-col justify-center items-center text-white px-20 py-10 gap-5">
+      <div className="flex flex-col justify-center items-center text-white px-5 py-5 sm:px-20 sm:py-10 gap-5">
         <div className="text-xl font-black">
           {lang === "en" ? "Trending Now" : "ट्रेंडिंग नाव"}
         </div>
@@ -162,7 +162,7 @@ const trending = ({ lang }) => {
           {lang==="en"?"More reasons to join":"शामिल होने की ज़्यादा वजहें"}
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 px-20 py-10 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 px-5 py-5 sm:px-20 sm:py-10 w-full">
 
           {arr.map((item, index) => (
             
