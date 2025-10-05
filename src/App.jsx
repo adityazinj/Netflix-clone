@@ -9,7 +9,7 @@ import Home from './components/Home';
 import Trending from './components/Trending';
 
 import { useState } from 'react';
-import Questions from './components/questions';
+import Questions from './components/Questions';
 import Footer from './components/Footer';
 
 
