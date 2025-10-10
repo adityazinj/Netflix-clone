@@ -40,7 +40,7 @@ const App = () => {
       element: (
         <div>
           <Navbar showOptions={false} lang={lang} toggleLang={toggleLang} />
-          <Signin />
+          <Signin lang={lang}/>
         </div>
       )
     }

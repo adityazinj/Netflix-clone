@@ -5,8 +5,8 @@ import { useState } from 'react';
 
 
 
-const Signin = () => {
-  const [lang,setLang] = useState("en");
+const Signin = ({lang}) => {
+
   const [contact,setContact] = useState("");
   const [pass,setPass] = useState("");
   const handleContact = () => {
@@ -84,14 +84,7 @@ const Signin = () => {
 
           </div>
 
-          <div>
-            <select value={lang} onChange={(e)=>{setLang(e.target.value)}} name="Language" className='text-white bg-transparent border rounded-md p-1 text-center'>
-              <option value="en" className='text-black'>🌐 English</option>
-              <option value="hi" className='text-black'>🌐 हिन्दी</option>    
-            </select>
-          </div>
-
-        </div>        
+      </div> 
 
     </div>
     
